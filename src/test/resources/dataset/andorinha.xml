@@ -1,0 +1,31 @@
+<dataset>
+
+	<public.usuario id="1" nome="usuário 1" />
+	<public.usuario id="2" nome="usuário 2" />
+	<public.usuario id="3" nome="usuário 3" />
+	<public.usuario id="4" nome="usuário 4" />
+	<public.usuario id="5" nome="usuário 5" />
+
+	<public.tweet id="1" id_usuario="1" data_postagem="2020-04-08 15:45:20" conteudo="postagem 1"/>
+	<public.tweet id="2" id_usuario="2" data_postagem="2020-05-09 09:10:00" conteudo="postagem 2"/>
+	<public.tweet id="3" id_usuario="3" data_postagem="2020-01-01 12:55:15" conteudo="postagem 3"/>
+	<public.tweet id="4" id_usuario="1" data_postagem="2020-04-08 15:45:20" conteudo="postagem 4"/>
+
+	<public.comentario id="1" id_usuario="4" id_tweet="1" data_postagem="2020-06-01 15:45:20" conteudo="comentário 1" />
+	<public.comentario id="2" id_usuario="4" id_tweet="1" data_postagem="2020-06-02 15:45:20" conteudo="comentário 2" />
+	<public.comentario id="3" id_usuario="3" id_tweet="1" data_postagem="2020-06-03 15:45:20" conteudo="comentário 3" />
+	<public.comentario id="4" id_usuario="2" id_tweet="1" data_postagem="2020-06-04 15:45:20" conteudo="comentário 4" />
+	<public.comentario id="5" id_usuario="1" id_tweet="2" data_postagem="2020-06-05 15:45:20" conteudo="comentário 5" />
+	<public.comentario id="6" id_usuario="4" id_tweet="2" data_postagem="2020-06-06 15:45:20" conteudo="comentário 6" />
+	<public.comentario id="7" id_usuario="4" id_tweet="3" data_postagem="2020-06-07 15:45:20" conteudo="comentário 7" />
+	<public.comentario id="8" id_usuario="3" id_tweet="3" data_postagem="2020-06-08 15:45:20" conteudo="comentário 8" />
+	<public.comentario id="9" id_usuario="2" id_tweet="3" data_postagem="2020-06-09 15:45:20" conteudo="comentário 9" />
+	<public.comentario id="10" id_usuario="1" id_tweet="3" data_postagem="2020-06-10 15:45:20" conteudo="comentário 10" />
+	
+	<public.curtidas id="73" id_tweet="4" id_usuario="1" /> 
+	<public.curtidas id="74" id_tweet="2" id_usuario="1" /> 
+	<public.curtidas id="75" id_tweet="2" id_usuario="1" /> 
+	
+	<public.deslike id="1" id_tweet="4" id_usuario="1" /> 
+	
+</dataset>
